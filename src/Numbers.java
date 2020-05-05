@@ -4,12 +4,10 @@ import java.util.regex.Pattern;
 public class Numbers {
 
     public String simbol(String str){
-
         for (int i = 0; i < str.length(); i++){
             if (str.charAt(i) == '+' || str.charAt(i) == '-' || str.charAt(i) == '*' || str.charAt(i) == '/')
                 return str.valueOf(str.charAt(i));
         }
-
         return "";
     }
 
